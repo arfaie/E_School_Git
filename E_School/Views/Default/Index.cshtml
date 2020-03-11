@@ -1,0 +1,221 @@
+﻿<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Marshall v26 - Ultimate Coming Soon Template</title>
+    <meta name="description" content="Marshall - Ultimate Coming Soon Template by pixiefy">
+    <meta name="author" content="pixiefy">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <!-- All CSS -->
+    <link rel="stylesheet" type="text/css" href="~/Content/firstPage/css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="~/Content/firstPage/css/animate.css">
+    <link rel="stylesheet" href="~/Content/firstPage/css/jquery.mCustomScrollbar.min.css">
+    <link rel="stylesheet" href="~/Content/firstPage/css/photoswipe.css">
+    <link rel="stylesheet" href="~/Content/firstPage/css/default-skin/default-skin.css">
+    <link rel="stylesheet" href="~/Content/firstPage/css/style.css" />
+    <link rel="stylesheet" href="~/Content/firstPage/style.css">
+    <link rel="stylesheet" href="~/Content/firstPage/css/responsive.css">
+
+    <!-- Modernizr js - required -->
+    <script src="~/Content/firstPage/js/modernizr.custom.js"></script>
+
+    <link href="~/Content/firstPage/fonts/Sahel/Sahel.css" rel="stylesheet" />
+    <link rel="stylesheet" href="~/Content/firstPage/font-awesome/css/font-awesome.min.css">
+
+</head>
+<body class="mrs-v26">
+    <!-- Page Loader Start -->
+    <div class="marshall-loading-screen">
+        <div class="marshall-loading-icon">
+            <div class="marshall-loading-inner">
+                <div class="marshall-load" data-name="Loding"></div>
+            </div>
+        </div>
+    </div><!-- End .loading-screen -->
+    <div class="marshall-container" id="container" style="font-family:'Sahel'">
+        <div class="marshall-col-6 marshall-col-content">
+
+            <div style="padding-bottom:0px" class="marshall-logo fadeIn fast">
+                <img src="~/Content/firstPage/images/@ViewBag.Logo" alt="@ViewBag.Name">
+            </div>
+            <div style="text-align:center" class="marshall-content jquery-center">
+                <h2 style="text-align:center;font-size:60px;margin-top:40%; color:#120174;font-family:'Sahel'" class="special_title fadeIn fast">@ViewBag.Name</h2>
+                <h1 style="text-align:center" class="fadeIn medium">
+                    <h3 style="text-align:center">هوشمند سازی شده با سامانه</h3>
+                    <br>
+                    <p style="font-size:60px;color:#120174;margin-top:-30px;text-align:center">سهاد</p>
+                    <br>
+                    
+                </h1>
+                <div style="margin-top:-40px" class="marshall-button-group fadeIn slow">
+                    <div class="morph-button morph-button-modal morph-button-modal-2 marshall-morph-modal morph-button-fixed">
+                        <button onclick="window.location.href = 'http://sahadapp.ir/app/sahad.apk';" type="button">دریافت اپلیکیشن</button>
+                    </div><!-- morph-button -->
+                </div>
+                    <div class="marshall-button-group fadeIn slow">
+                        <div class="morph-button morph-button-modal morph-button-modal-2 marshall-morph-modal morph-button-fixed">
+                            <p class="fadeIn fast">@ViewBag.Name در شبکه های اجتماعی:</p>
+                                <a href="https://www.instagram.com/farda_school1/"><img width="60 px" height="60 px" class="fadeIn fast-child-1" src="~/Content/firstPage/images/Insta.png" /></a>
+                                <a href="https://t.me/farda_school"><img width="60 px" height="60 px" class="fadeIn fast-child-1" src="~/Content/firstPage/images/Telegram.png" /></a>
+                        </div><!-- morph-button -->
+                    </div>
+                    
+            </div>
+        </div>
+    </div>
+    <div style="font-family:'Sahel'" id="marshall-details" data-animation="mrs-moveToRight" class="marshall-animate-content mrs-active">
+        <div class="marshall-main-content">
+            <div class="marshall-the_content">
+                <p><h2>درباره ما</h2></p>
+                <p>@Html.Raw(ViewBag.AboutUs)</p>
+                <div class="marshall-works-details">
+                    <div id="works-heading" class="marshall-works-heading">
+                        <div class="marshall-works-heading-inner">
+                            <h2>تصاویری از مدرسه ما</h2>
+                        </div>
+                    </div>
+                    <div class="marshall-work-gallery-content">
+                        <div id="marshall-work-gallery" class="marshall-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+                            <figure class="marshall-gallery-item" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                                <a href="~/Content/firstPage/images/Gallery/1.JPG" itemprop="contentUrl" data-size="1200x800">
+                                    <img src="~/Content/firstPage/images/Gallery/1.JPG" itemprop="thumbnail" alt="Image description" />
+                                    <h2>بزرگنمایی تصویر</h2>
+                                    <span class="mask-overley"></span>
+                                </a>
+                            </figure>
+                            <figure class="marshall-gallery-item" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                                <a href="~/Content/firstPage/images//Gallery/2.JPG" itemprop="contentUrl" data-size="1200x800">
+                                    <img src="~/Content/firstPage/images/Gallery/2.JPG" itemprop="thumbnail" alt="Image description" />
+                                    <h2>بزرگنمایی تصویر</h2>
+                                    <span class="mask-overley"></span>
+                                </a>
+                            </figure>
+                            <figure class="marshall-gallery-item" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                                <a href="~/Content/firstPage/images/Gallery/5.JPG" itemprop="contentUrl" data-size="1200x800">
+                                    <img src="~/Content/firstPage/images/Gallery/5.JPG" itemprop="thumbnail" alt="Image description" />
+                                    <h2>بزرگنمایی تصویر</h2>
+                                    <span class="mask-overley"></span>
+                                </a>
+                            </figure>
+
+                            <figure class="marshall-gallery-item" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                                <a href="~/Content/firstPage/images/Gallery/4.JPG" itemprop="contentUrl" data-size="1200x800">
+                                    <img src="~/Content/firstPage/images/Gallery/4.JPG" itemprop="thumbnail" alt="Image description" />
+                                    <h2>بزرگنمایی تصویر</h2>
+                                    <span class="mask-overley"></span>
+                                </a>
+                            </figure>
+                            <figure class="marshall-gallery-item" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                                <a href="~/Content/firstPage/images/Gallery/6.JPG" itemprop="contentUrl" data-size="1200x800">
+                                    <img src="~/Content/firstPage/images/Gallery/6.JPG" itemprop="thumbnail" alt="Image description" />
+                                    <h2>بزرگنمایی تصویر</h2>
+                                    <span class="mask-overley"></span>
+                                </a>
+                            </figure>
+
+                            <figure class="marshall-gallery-item" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                                <a href="~/Content/firstPage/images/Gallery/3.JPG" itemprop="contentUrl" data-size="1200x800">
+                                    <img src="~/Content/firstPage/images/Gallery/3.JPG" itemprop="thumbnail" alt="Image description" />
+                                    <h2>بزرگنمایی تصویر</h2>
+                                    <span class="mask-overley"></span>
+                                </a>
+                            </figure>
+                        </div>
+                        <div class="bottom-separator"></div>
+                    </div>
+                </div>
+
+                <div class="marshall-single-full">
+                    <div class="mrs-single-heading">
+                        <h2>ارتباط با ما</h2>
+                    </div>
+                    <div class="mrs-single-full">
+                        <div class="contact-information">
+                            <div class="marshall-container">
+                                <div class="single-contact-info">
+                                    <p>@Html.Raw(ViewBag.Address)</p>
+
+                                </div>
+                            </div>
+                        </div>
+                        @*<form id="mrs-contactForm" class="mrs-contact-form" method="post" action="php/contact.htm">
+                            <div class="contact-alert-message">
+                                <div id='mail_success' class='success'><i class="fa fa-check-circle"></i> Your message has been sent successfully.</div>
+                                <div id='mail_fail' class='error'><i class="fa fa-exclamation-circle"></i> Sorry, error occured found, try again.</div>
+                            </div>
+
+                            <div class="single-cform-item">
+                                <label for="mrs_name">Name</label>
+                                <input name="mrs_name" id="mrs_name" type="text">
+                            </div>
+                            <div class="single-cform-item">
+                                <label for="mrs_email">Email</label>
+                                <input name="mrs_email" id="mrs_email" type="text">
+                            </div>
+                            <div class="single-cform-item">
+                                <label for="mrs_message">Message</label>
+                                <textarea name="mrs_message" id="mrs_message" rows="1"></textarea>
+                            </div>
+                            <button id="mrs_submit" type="submit">submit</button>
+                            <span class="form_loader"></span>
+                        </form>*@
+
+                    </div>
+                    <div class="footer-copyright">
+                        <p style="text-align:left;direction:ltr"> &copy;Punas 2020, All right reserved </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Gallery Dependancy -->
+    <div style="font-family:'Sahel'" class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="pswp__bg"></div>
+        <div class="pswp__scroll-wrap">
+            <div class="pswp__container">
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+            </div>
+            <div class="pswp__ui pswp__ui--hidden">
+                <div class="pswp__top-bar">
+                    <div class="pswp__counter"></div> <button class="pswp__button pswp__button--close" title="Close (Esc)"></button> <button class="pswp__button pswp__button--share" title="Share"></button> <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button> <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+                    <div class="pswp__preloader">
+                        <div class="pswp__preloader__icn">
+                            <div class="pswp__preloader__cut">
+                                <div class="pswp__preloader__donut"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                    <div class="pswp__share-tooltip"></div>
+                </div> <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button>
+                <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button>
+                <div class="pswp__caption">
+                    <div class="pswp__caption__center"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- All marshall js files -->
+    <script type="text/javascript" src="~/Content/firstPage/js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="~/Content/firstPage/js/photoswipe.min.js"></script>
+    <script type="text/javascript" src="~/Content/firstPage/js/photoswipe-ui-default.min.js"></script>
+    <script type="text/javascript" src="~/Content/firstPage/js/jquery.mousewheel.min.js"></script>
+    <script type="text/javascript" src="~/Content/firstPage/js/jquery.mCustomScrollbar.min.js"></script>
+    <script type="text/javascript" src="~/Content/firstPage/js/gallery.js"></script>
+    <script src="~/Content/firstPage/js/classie.js"></script>
+    <script src="~/Content/firstPage/js/uiMorphingButton_fixed.js"></script>
+    <script src="~/Content/firstPage/js/form-init.js"></script>
+    <script src="~/Content/firstPage/js/jquery.ajaxchimp.min.js"></script>
+    <script src="~/Content/firstPage/js/jquery.textarea_autosize.js"></script>
+    <script type="text/javascript" src="~/Content/firstPage/js/v26/jquery.particleground.min.js"></script>
+    <script type="text/javascript" src="~/Content/firstPage/js/main.js"></script>
+
+</body>
+</html>

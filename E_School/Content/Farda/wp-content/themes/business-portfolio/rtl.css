@@ -1,0 +1,235 @@
+/*
+Theme Name: hanne
+URI: https://hamyarwp.com/hanne
+Author: HAMYARWP
+RTL-er: HAMYARWPRTL-er
+*/
+@font-face {
+    font-family: 'Yekan';
+    src: url('fonts/WebYekan.eot');
+    src: url('fonts/WebYekan-1.eot') format('embedded-opentype'),
+         url('fonts/WebYekan.woff') format('woff'),
+         url('fonts/WebYekan.ttf') format('truetype'),
+         url('fonts/WebYekan.svg#WebYekan') format('svg');
+}
+@font-face {
+  font-family: mitra;
+  font-style: normal;
+  font-weight: bold;
+  src: url('fonts/BMitraBold.woff') format('woff');   /* All Major Browsers */
+}
+@font-face {
+  font-family: mitra;
+  font-style: normal;
+  font-weight: normal;
+  src: url('fonts/BMitra.woff') format('woff');   /* All Major Browsers */
+}
+
+body,button, input[type="button"], input[type="reset"], input[type="submit"],textarea,a,h1,h2,h3,h4,h5,h6,span,p,.widget-title{
+  font-family: Yekan;
+  letter-spacing: 0;
+}
+button, input[type="button"], input[type="reset"], input[type="submit"], input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="search"], textarea{
+  font-family: Yekan;
+  letter-spacing: 0;
+}
+.site-description, .main-navigation, .main-navigation .nav-menu > li > a, .main-navigation ul ul li a, .header-bottom h1, .header-bottom h2, .home-header-bottom h1, .home-header-bottom h2, .header-bottom h3, .header-bottom h4, .home-header-bottom h3, .home-header-bottom h4{
+  font-family: Yekan;
+  letter-spacing: 0;
+}
+.main-navigation a, body, button, input, select, textarea, span, .header-bottom h1, .header-bottom h2, .home-header-bottom h1, .home-header-bottom h2, .header-bottom h3, .header-bottom h4, .home-header-bottom h3, .home-header-bottom h4{
+  font-weight: 400;
+}
+
+@media (min-width: 992px){
+.col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9 {
+    float: right;
+}}
+@media (min-width: 768px){
+.col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9 {
+    float: right;
+}}
+.col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+    float: right;
+}
+
+#header .logo  {
+    margin-top: 5px;
+}
+#header .logo img {
+    float: left;
+}
+.owl-carousel .owl-stage-outer {
+    direction: ltr;
+}
+.owl-stage {
+    direction: rtl;
+}
+#j-slider .slide-text h1:before {
+    right: 0;
+    left: initial;
+}
+#j-slider .slide-text.center h1:before {
+    right: 50%;
+    left: initial;
+    margin-right: -30px;
+    margin-left: 0;
+}
+@media (min-width: 768px){
+.navbar-nav>li {
+    float: right;
+}}
+#header .nav li {
+    margin-left: 5px;
+    margin-right: 0;
+}
+.nav-tabs>li {
+    float: right;
+}
+.section-title.left {
+    text-align: right;
+}
+.section-title.left h2:before {
+    right: 0;
+    left: initial;
+    margin-right: 0;
+    margin-left: 0;
+}
+#our-skill .info-main {
+    text-align: justify;
+}
+.progress-bar {
+    float: right;
+}
+#our-skill .single-skill .progress-bar span::before {
+    border-right-color: #16A085;
+}
+#our-skill .single-skill .progress-bar span::before {
+    right: 6px;
+    left: initial;
+    border-right: 15px solid;
+    border-left: 0;
+        border-right-color: #16A085;
+}
+#our-skill .single-skill .progress-bar span {
+    left: 0;
+    right: initial;
+}
+#header .col-md-2.col-sm-12.col-xs-12{
+	float: left;
+}
+#header .col-md-10.col-sm-12.col-xs-12{
+	float: right;
+}
+#statics .static-image {
+    left: 0;
+    right: initial;
+    border-right: 5px solid #fff;
+    border-left: 0;
+}
+.statics .col-md-12.col-sm-12.col-xs-12 p {
+    text-align: justify;
+}
+#blog .blog-content .meta span i {
+    margin-left: 5px;
+    margin-right: 0;
+}
+#blog .blog-content .meta span {
+    margin-left: 10px;
+    margin-right: 0;
+}
+#blog span.byline, #blog span.author.vcard {
+    margin-left: 0 !important;
+}
+#blog .blog-content .btn i {
+    margin-right: 5px;
+    margin-left: 0;
+}
+.fa-angle-double-right:before {
+    content: "\f100";
+}
+#contact input {
+    width: 100%;
+    height: 44px;
+    border: 1px solid #e2e2e2;
+    padding-right: 10px;
+    padding-left: 0;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+#contact input:hover, #contact input:focus, #contact textarea:hover, #contact textarea:focus{
+border-color: #16A085;
+}
+#contact .col-md-5.col-sm-5.col-xs-12 {
+    width: 75%;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    float: none;
+}
+#contact textarea {
+    border: 1px solid #e2e2e2;
+    padding: 10px;
+    width: 100%;
+    height: 210px;
+    padding-right: 10px;
+    padding-left: 0;
+    resize: none;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+#contact label {
+    width: 100% !important;
+}
+
+#contact input[type="submit"]:hover {
+    -webkit-animation-name: hvr-icon-wobble-horizontal;
+    animation-name: hvr-icon-wobble-horizontal;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+}
+#contact input[type="submit"]:hover {
+    background: #252525;
+}
+#contact input[type="submit"] {
+    background-color: #16A085;
+    color: #fff;
+}
+@media (min-width: 992px){
+	#header .logo img {
+    float: none;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+}
+#j-slider .slide-text {
+    margin-right: 12.5%;
+}
+.breadcrumb-trail.breadcrumbs {
+    display: none;
+}
+#breadcrumbs h2 {
+    text-align: right;
+}
+#blog .blog-comments h2 {
+    display: none !important;
+}
+#blog .form .s-button {
+    left: 0;
+    right: initial;
+}
+a.tag-cloud-link {
+    font-size: 15px !important;
+    background-color: #16a085;
+    color: #fff;
+    padding: 1px 5px;
+    margin: 7px 0;
+    border-radius: 1px;
+}
